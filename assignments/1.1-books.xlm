@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Library>
+	<Catalogue category="Technical Books">
+        <Book>
+            <ISBN>1718502702</ISBN>
+            <Title>Python Crash Course</Title>
+            <Author>Eric Matthes</Author>
+        </Book>
+        <Book>
+            <ISBN>1718501323</ISBN>
+            <Title>Learn to Program by Solving Problems</Title>
+            <Author>Daniel Zingaro</Author>
+        </Book>
+	</Catalogue>
+    <Catalogue category="Cooking Books">
+        <Book>
+            <ISBN>1782060065</ISBN>
+            <Title>The Hungry Student Cookbook</Title>
+            <Author>Charlotte Pike</Author>
+        </Book>
+        <Book>
+            <ISBN>0446545929</ISBN>
+            <Title>The I Hate To Cook Book</Title>
+            <Author>Peg Bracken</Author>
+        </Book>
+	</Catalogue>
+</Library>
