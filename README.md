@@ -2,12 +2,10 @@
 
 #### Author
 Daria Sep (G00411221@atu.ie)
-#### Course
-Higher Diploma in Computing in Data Analytics
-#### Module
-Data Representation
-#### Lecturer
-Andrew Beatty (andrew.beatty@gmit.ie)
+#### Course Details
+Course: Higher Diploma in Computing in Data Analytics
+Module: Data Representation
+Lecturer: Andrew Beatty (andrew.beatty@gmit.ie)
 
 ## Description
 This repository is a submission of the Continuous Assisgnemnts and Labs completed as part of the Data Representation module. 
