@@ -16,10 +16,10 @@ file_path = "test.txt"
 def get_file(target_repo, target_file):
     repo = g.get_repo(target_repo)
     file_info = repo.get_contents(target_file)
-    url_file = file_info.download_url
-    response = requests.get(url_file)
-    content_file = response.text
-    return content_file, file_info
+    file_url = file_info.download_url
+    response = requests.get(file_url)
+    file_content = response.text
+    return file_content, file_info
 
 # Function to replace a string in the original content
 def replace_string(original_content):
@@ -27,9 +27,9 @@ def replace_string(original_content):
     return new_content
  
 # Function to update the content of a file in the GitHub repository
-def update_github(repo, file_info, new_content):
-    gitHubResponse = repo.update_file(file_info.path, "Textfile update", new_content, file_info.sha)
-    return gitHubResponse
+def update_repo(repo, file_info, new_content):
+    gh_response = repo.update_file(file_info.path, "Textfile update", new_content, file_info.sha)
+    return gh_response
 
 original_content, file_info = get_file(repo_name, file_path)
 
@@ -37,6 +37,6 @@ new_content = replace_string(original_content)
 
 repo = g.get_repo(repo_name)
 
-git_response = update_github(repo, file_info, new_content)
+github_response = update_repo(repo, file_info, new_content)
 
-print(git_response)
+print(github_response)
