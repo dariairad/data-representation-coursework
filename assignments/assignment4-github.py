@@ -8,7 +8,7 @@ g = Github(apikey)
 old = "Andrew"
 new = "Daria"
 
-# Repository and file to be updated
+# Repository and file to be updated. Worked and tested on privateone depository credted for lab
 repo_name = "dariairad/privateone"  
 file_path = "test.txt"  
 
@@ -37,6 +37,7 @@ new_content = replace_string(original_content)
 
 repo = g.get_repo(repo_name)
 
-github_response = update_repo(repo, file_info, new_content)
+# github_response = update_repo(repo, file_info, new_content)
+# print(github_response)
 
-print(github_response)
+update_repo(repo, file_info, new_content)
