@@ -1,5 +1,5 @@
 from github import Github
-from config import config as cfg
+from config import config as cfg # file containing access token
 import requests
 
 apikey = cfg["githubkey"]
@@ -8,7 +8,7 @@ g = Github(apikey)
 old = "Andrew"
 new = "Daria"
 
-# Repository and file to be updated. Worked and tested on privateone depository credted for lab
+# Repository and file to be updated. Worked and tested on privateone depository created for lab
 repo_name = "dariairad/privateone"  
 file_path = "test.txt"  
 
