@@ -10,7 +10,7 @@ Module: Data Representation
 Lecturer: Andrew Beatty
 
 ## Description
-This repository is a submission of the Continuous Assisgnemnts and Labs completed as part of the Data Representation module. 
+This repository is a submission of the Continuous Assisgnments and Labs completed as part of the Data Representation module. 
 
 The content is divided into two folders:
 1. Assignments
