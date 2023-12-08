@@ -6,7 +6,7 @@ import requests
 import json
 from lab6config import config as cfg
 
-filename = "lab6-private.json"
+filename = "lab6private.json"
 
 url = 'https://api.github.com/repos/dariairad/privateone'
 
