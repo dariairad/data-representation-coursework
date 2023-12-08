@@ -4,7 +4,7 @@
 
 import requests
 import json
-from lab6config import config as cfg
+from lab5config import config as cfg
 
 filename = "lab6private.json"
 

@@ -5,7 +5,7 @@
 
 import requests
 import urllib.parse
-from lab6config import config as cfg
+from lab5config import config as cfg
 
 targetUrl = "https://en.wikipedia.org"
 apiKey =  cfg["htmltopdfkey"]
