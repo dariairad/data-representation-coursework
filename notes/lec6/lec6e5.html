@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>2.5</title>
+    </head>
+    <body>
+        <div id="div1" style="background-color: royalblue">
+            <br/>
+            some text </br>
+            <button onclick="showDiv2()">show Div2</button>
+        </div>
+        <div id="div2" style="background-color: rgb(225, 65, 65); display: none">
+            <br/>
+            some other text </br>
+            <button onclick="showDiv1()">show Div1</button>
+        </div>
+        
+        <script>
+            function showDiv2(){
+                document.getElementById("div1").style.display = "none";
+                document.getElementById("div2").style.display = "block";
+            }
+            function showDiv1(){
+                document.getElementById("div2").style.display = "none";
+                document.getElementById("div1").style.display = "block";
+            }
+        </script>
+    </body>

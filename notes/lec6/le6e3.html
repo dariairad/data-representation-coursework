@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>2.3</title>
+    </head>
+    <body>
+        <input id="name" type="text"/>
+        <br/>
+        <button onclick="buttonClicked()">click me</button>
+        <div id="output">output willgo here</div>
+        <script>
+            function buttonClicked(){
+                var output=document.getElementById("name").value
+                document.getElementById('output').innerText = output
+
+            }
+        </script>
+    </body>
